@@ -1,0 +1,25 @@
+Incluir jogadores
+
+{
+  "username": "BarbieGirl",
+	"email": "barbie@barbie.com",
+	"password": "barbiegirl",
+	"name": "Bárbara Santos",
+	"gender": "F",
+	"age": 28,
+	"bio": "Primeira utilizadora do sistema, adora jogos de aventura e confraternizar com os amigos.",
+	"avatar_url": "https://i.pinimg.com/736x/c8/3f/65/c83f653b7a195373d273a3c040471122.jpg",
+	"boardgames": "Root",
+	"latitude": -29.9276296,
+	"longitude": -51.0436396,
+	"rating": 5,
+	"level": 99,
+	"skills": {
+		"charisma": 3,
+		"punctuality": 3,
+		"education": 3,
+		"learning": 3,
+		"hability": 3
+	}
+}
+		

@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #FFFABA;
+  border: 2px solid #FFAB05;
+  margin: 2%;
+  padding: 3%;
+  width: 30%;
+  max-height: 650px;
+}
+
+input {
+  border: none;
+  height: 25px;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  width: 100%;
+}
+
+textarea {
+  border: none;
+  height: 75px;
+  margin-bottom: 15px;
+  margin-top: 1px;
+  width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 5%;
+}
+
+.btnUploadImg {
+  margin-left: 20%;
+  height: 25px;
+}
+
+.btnSubmit {
+  margin-left: 20%;
+  height: 25px;
+}
+
+strong {
+  font-size: 30px;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  border: none;
+  height: 30px;
+  width: 100%;
+}

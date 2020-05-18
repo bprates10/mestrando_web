@@ -1,0 +1,12 @@
+form {
+  background: #FFFABA;
+  border: 2px solid #FFAB05;
+}
+
+form>input {
+  border: 1px solid #FFAB05;
+}
+
+img {
+  width: 1499px;
+}

@@ -1,0 +1,168 @@
+/* detalhes da barra de navegação lateral */
+.navbar {
+  display: block;
+  /* height: 355px; */
+  padding: 2%;
+  width: 20%;
+}
+
+.my-grafics {
+  display: flex;
+  flex-direction: row;
+}
+
+/* atributos da imagem do perfil */
+.navbar>img {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17%;
+  margin-bottom: 10%;
+  width: 160px;
+}
+
+/* atributos do form */
+.form-data {
+  background-color: #FFB460;
+  padding: 3%;
+}
+.form-data>p {
+  font-family: cursive;
+  font-size: 24px;
+  text-align: center
+}
+/* atributos dos inputs pequenos */
+.form-data>.input-small {
+  margin-left: 5%;
+  width: 20%;
+}
+
+/* atributos de espaçamento dos labels do form */
+.label-rating {
+  margin-left: 7%;
+}
+/* atributos de espaçamento dos inputs do form */
+input {
+  margin-bottom: 5%;
+  padding-left: 3%;
+}
+
+/* atributos da div dos gráficos */
+.my-grafics {
+  background-color: #FFFABA;
+  border: 2px solid #FFAB05;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  margin: 2%;
+  width: 65%;
+}
+
+/* atributos da div minhas estatisticas */
+.my-stats {
+  /* padding-top: 2%; */
+  padding-left: 2%;
+  /* background-color: red; */
+  width: 100%;
+} 
+.my-stats>p {
+  font-family: cursive;
+  font-size: 24px;
+  text-align: center
+}
+/* atributos gerais de botao */
+.btn {
+  border: none;
+  border-bottom-left-radius: 8%;
+  border-top-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+  border-top-right-radius: 8%;
+  height: 30px;
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 150px;
+}
+/* botao criar evento */
+.btn-add-event {
+  background-color: #FFB460;
+}
+/* botao procurar evento */
+.btn-search-event {
+  background-color: #FFAB05;
+}
+/* botao mapa */
+.btn-map {
+  background-color: rgb(253, 113, 57);
+  margin-left: 30%;
+}
+.btn:hover {
+  background-color: rgb(99, 255, 68);
+  color: white;
+}
+
+/* atributos da div meus eventos */
+.my-events {
+  padding-top: 2%;
+  padding-left: 2%;
+  width: 100%;
+}
+.my-events>p {
+  font-family: cursive;
+  font-size: 24px;
+  text-align: center
+}
+
+.descriptions {
+  background-color: #ffffff;
+  border: 2px solid #FFAB05;
+  padding: 2%;
+  width: 50%;
+}
+.descriptions>p {
+  font-family: cursive;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  max-height: 240px;
+}
+
+.graph {
+  background-color: #ffffff;
+  border: 2px solid #FFAB05;
+  width: 50%;
+}
+
+/* atributos dos charts */
+.recharts-surface {
+  width: 75%;
+}
+
+.recharts-wrapper {
+  /* margin-left: 0; */
+  width: 90%;
+}
+
+/* barra de icones da esquerda */
+.icon-navbar-left {
+  background-color: #FFFABA;
+  border: 2px solid #FFAB05;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  width: 5%;
+}
+
+.show{
+  display: block !important;
+}
