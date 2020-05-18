@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Logo from "../../assets/banner-web.png"
-import api from "../../services/api";
-import { login } from "../../services/auth";
+// import api from "../../services/api";
+// import { login } from "../../services/auth";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
 import "../../styles/global.css"
@@ -13,19 +13,19 @@ function Login() {
   const [password, setPassword] = useState('')
   const [isError, setIsError] = useState(false)
   const [errorMsg, setErrorMsg] = useState({ error: '' })
-  const [isEnable, setIsEnable] = useState(false)
+  // const [isEnable, setIsEnable] = useState(false)
   const [loader, setLoader] = useState(false)
 
   async function handleSignIn(e) {
     e.preventDefault()
     setLoader(true)
 
-    if (username == '') {
+    if (username === '') {
       setIsError(true)
       setErrorMsg({ error: "Preencha o nome de usuário para continuar!" })
       return
     }
-    if (password == '') {
+    if (password === '') {
       setIsError(true)
       setErrorMsg({ error: "Preencha a senha para continuar!" })
       return

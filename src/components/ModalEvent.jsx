@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import "./Modal.css";
+import React from "react"
+import "./Modal.css"
 import Banner from "../assets/banner-events.jpg"
 
 const Modal = props => {
   const { className, modalRef, name } = props;
   // const [maleRestrict, setMaleRestrict] = useState()
-  const [dropdown, setDropdown] = useState("")
+  // const [dropdown, setDropdown] = useState("")
   // variavel que define o estilo da camada main
-  const [mainStyle, setMainStyle] = useState({})
+  // const [mainStyle, setMainStyle] = useState({})
   // variavel que define se os gráficos estarão ocultos
-  const [isHidden, setIsHidden] = useState(false)
+  // const [isHidden, setIsHidden] = useState(false)
 
   return (
     <div ref={modalRef} className={`${className} modal`}>
-      <img src={Banner} />
+      <img src={Banner} alt="Imagem Banner Evento" />
       <div className='eventInfo'>
         <div className='event-column-1'>
           <label>Administrador:</label>

@@ -10,20 +10,26 @@ import CloudUploadIcon from '@material-ui/icons/CloudUpload'
 import SaveIcon from '@material-ui/icons/Save'
 
 function AddPlayer() {
-  const [name, setName] = useState('')
+  // const [name, setName] = useState('')
+  const setName = ''
   const [username, setUsername] = useState('')
-  const [email, setEmail] = useState('')
+  // const [email, setEmail] = useState('')
+  const setEmail = ''
   const [password, setPassword] = useState('')
-  const [age, setAge] = useState('')
-  const [bio, setBio] = useState('')
-  const [avatar_url, setAvatarUrl] = useState('https://observatoriodegames.uol.com.br/wp-content/uploads/2020/04/pink-pok%C3%A9mon-.jpg')
-  const [boardgames, setBoardgames] = useState('')
-  const [listGames, setListGames] = useState([])
+  // const [age, setAge] = useState('')
+  const setAge = ''
+  // const [bio, setBio] = useState('')
+  const setBio = ''
+  // const [avatar_url, setAvatarUrl] = useState('https://observatoriodegames.uol.com.br/wp-content/uploads/2020/04/pink-pok%C3%A9mon-.jpg')
+  // const [boardgames, setBoardgames] = useState('')
+  const setBoardgames = ''
+  // const [listGames, setListGames] = useState([])
+  const listGames = []
   const [latitude, setLatitude] = useState('')
   const [longitude, setLongitude] = useState('')
   const [isError, setIsError] = useState(false)
   const [errorMsg, setErrorMsg] = useState({})
-  const [isInvisible, setIsInvisible] = useState(false)
+  // const [isInvisible, setIsInvisible] = useState(false)
 
   async function handleSignUp(e) {
     e.preventDefault();

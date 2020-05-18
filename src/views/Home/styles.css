@@ -1,7 +1,6 @@
 /* detalhes da barra de navegação lateral */
 .navbar {
   display: block;
-  /* height: 355px; */
   padding: 2%;
   width: 20%;
 }
@@ -28,11 +27,13 @@
   background-color: #FFB460;
   padding: 3%;
 }
+
 .form-data>p {
   font-family: cursive;
   font-size: 24px;
   text-align: center
 }
+
 /* atributos dos inputs pequenos */
 .form-data>.input-small {
   margin-left: 5%;
@@ -43,6 +44,7 @@
 .label-rating {
   margin-left: 7%;
 }
+
 /* atributos de espaçamento dos inputs do form */
 input {
   margin-bottom: 5%;
@@ -66,12 +68,14 @@ input {
   padding-left: 2%;
   /* background-color: red; */
   width: 100%;
-} 
+}
+
 .my-stats>p {
   font-family: cursive;
   font-size: 24px;
   text-align: center
 }
+
 /* atributos gerais de botao */
 .btn {
   border: none;
@@ -84,19 +88,23 @@ input {
   margin-top: 3%;
   width: 150px;
 }
+
 /* botao criar evento */
 .btn-add-event {
   background-color: #FFB460;
 }
+
 /* botao procurar evento */
 .btn-search-event {
   background-color: #FFAB05;
 }
+
 /* botao mapa */
 .btn-map {
   background-color: rgb(253, 113, 57);
   margin-left: 30%;
 }
+
 .btn:hover {
   background-color: rgb(99, 255, 68);
   color: white;
@@ -108,6 +116,7 @@ input {
   padding-left: 2%;
   width: 100%;
 }
+
 .my-events>p {
   font-family: cursive;
   font-size: 24px;
@@ -120,6 +129,7 @@ input {
   padding: 2%;
   width: 50%;
 }
+
 .descriptions>p {
   font-family: cursive;
   font-weight: bold;
@@ -140,12 +150,13 @@ input {
 
 /* atributos dos charts */
 .recharts-surface {
-  width: 75%;
+  max-width: 75%;
+  width: 60%;
 }
 
 .recharts-wrapper {
-  /* margin-left: 0; */
-  width: 90%;
+  height: 200px;
+  width: 100%;
 }
 
 /* barra de icones da esquerda */
@@ -163,6 +174,6 @@ input {
   width: 5%;
 }
 
-.show{
+.show {
   display: block !important;
 }

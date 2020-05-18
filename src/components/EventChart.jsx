@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import {
   ComposedChart,
   XAxis,
   YAxis,
   Tooltip,
-  Legend,
   CartesianGrid,
   Area,
   Bar,
