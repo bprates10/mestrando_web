@@ -25,6 +25,7 @@
 /* atributos do form */
 .form-data {
   background-color: #FFB460;
+  /* background-color: #000; */
   padding: 3%;
 }
 
@@ -53,7 +54,8 @@ input {
 
 /* atributos da div dos gráficos */
 .my-grafics {
-  background-color: #FFFABA;
+  /* background-color: #FFFABA; */
+  background-color: #fff;
   border: 2px solid #FFAB05;
   display: flex;
   flex-direction: column;
@@ -92,11 +94,13 @@ input {
 /* botao criar evento */
 .btn-add-event {
   background-color: #FFB460;
+  /* background-color: #000; */
 }
 
 /* botao procurar evento */
 .btn-search-event {
   background-color: #FFAB05;
+  /* background-color: #000; */
 }
 
 /* botao mapa */
@@ -125,7 +129,8 @@ input {
 
 .descriptions {
   background-color: #ffffff;
-  border: 2px solid #FFAB05;
+  /* border: 2px solid #FFAB05; */
+  border: 2px solid #000;
   padding: 2%;
   width: 50%;
 }
@@ -150,18 +155,19 @@ input {
 
 /* atributos dos charts */
 .recharts-surface {
-  max-width: 75%;
-  width: 60%;
+  /* max-width: 75%; */
+  width: 100%;
 }
 
 .recharts-wrapper {
   height: 200px;
-  width: 100%;
+  width: 100% !important;
 }
 
 /* barra de icones da esquerda */
 .icon-navbar-left {
   background-color: #FFFABA;
+  /* background-color: #fff; */
   border: 2px solid #FFAB05;
   display: flex;
   flex-direction: column;

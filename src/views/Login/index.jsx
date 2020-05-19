@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Logo from "../../assets/banner-web.png"
-// import api from "../../services/api";
+import api from "../../services/api";
 // import { login } from "../../services/auth";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
@@ -34,8 +34,8 @@ function Login() {
     setIsError(false)
 
     try {
-      // const response = await api.post("/showplayer", { username, password });
-      // console.log(response.data.token)
+      const response = await api.post("/auth", { username, password });
+      console.log('response =>', response)
       // login(response.data.token);
       // this.props.history.push("/home");
     } catch (err) {

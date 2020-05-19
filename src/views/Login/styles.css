@@ -1,10 +1,13 @@
 form {
-  background: #FFFABA;
-  border: 2px solid #FFAB05;
+  /* background: #FFFABA; */
+  background: #000;
+  /* border: 2px solid #FFAB05; */
+  border: 2px solid #fff;
 }
 
 form>input {
-  border: 1px solid #FFAB05;
+  /* border: 1px solid #FFAB05; */
+  border: 1px solid #fff;
 }
 
 img {
